@@ -5,17 +5,17 @@ import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
 import me from "../assets/logo.png";
 
 const Home = ({ ratio }) => {
-  const clientCount = useRef(null);
+  // const clientCount = useRef(null);
   const projectCount = useRef(null);
 
-  const animationClientsCount = () => {
-    animate(0, 100, {
-      duration: 1,
-      onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-    });
-  };
+  // const animationClientsCount = () => {
+  //   animate(0, 100, {
+  //     duration: 1,
+  //     onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
+  //   });
+  // };
   const animationProjectsCount = () => {
-    animate(0, 500, {
+    animate(0, 5, {
       duration: 1,
       onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
     });
@@ -68,7 +68,7 @@ const Home = ({ ratio }) => {
             </a>
           </div>
 
-          <article>
+          {/* <article>
             <p>
               +
               
@@ -79,27 +79,25 @@ const Home = ({ ratio }) => {
               
             </p>
             <span>Clients Worldwide</span>
-          </article>
+          </article> */}
 
           <aside>
             <article>
               <p>
                 +
-                
-                  <motion.span
-                    ref={projectCount}
-                    whileInView={animationProjectsCount}
-                  >
-                    500
-                  </motion.span>
-                
+                <motion.span
+                  ref={projectCount}
+                  whileInView={animationProjectsCount}
+                >
+                  500
+                </motion.span>
               </p>
               <span>Projects Done</span>
             </article>
 
             <article data-special>
               <p>Contact</p>
-              <span>official.ranjeetsoni1996@gmail.com</span>
+              <span>+91-8789199802</span>
             </article>
           </aside>
         </div>

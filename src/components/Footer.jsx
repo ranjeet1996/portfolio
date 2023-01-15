@@ -1,4 +1,6 @@
 import React from "react";
+import pic from "./pic/pic.jpg";
+
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -11,10 +13,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <img
-          src={"https://avatars.githubusercontent.com/u/25058652"}
-          alt="Founder"
-        />
+        <img src={pic} alt="Founder" />
 
         <h2>Ranjeet kumar</h2>
         <p>Motivation is temporary, but discipline last forever.</p>
