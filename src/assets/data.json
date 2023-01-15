@@ -11,7 +11,7 @@
       "date": "05/11/2022",
       "title": "Calculator",
       "description": "A React App where users can perform calculation-related work. Addition, Subtraction, Multiply, and Division.",
-      "url": "/",
+      "url": "https://heroic-mochi-d77c40.netlify.app/",
       "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
     },
     {
@@ -25,7 +25,7 @@
       "date": "07/12/2022",
       "title": "Real-time-chat",
       "description": "Live chat web application, users can have group conversations in real-time.Ability to create room and add multiple user conversations. Responsive in order to fit various mobile devices.",
-      "url": "/",
+      "url": "http://3.109.58.72:3000/",
       "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
     },
     {
