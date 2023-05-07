@@ -14,7 +14,7 @@ const Home = ({ ratio }) => {
   //     onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
   //   });
   // };
-  const animationProjectsCount = () => {
+  const animationProjectsCount = () => {  
     animate(0, 5, {
       duration: 1,
       onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
